@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img{
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}
+h1{
+  color: white;
+  border-bottom: 2px solid white;
+}
+p{color: black
+text-align: center;}
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-color: rgb59, 67, 77); /* Fallback color */
+  background-color: rgba(59, 67, 77); /* Black w/opacity/see-through */
+  color: black;
+  font-weight: normal;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
